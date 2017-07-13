@@ -1,8 +1,9 @@
-body{
+body {
     background-color: #2f133d;
     font-family: sans-serif;
 }
-.container{
+
+.container {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -11,23 +12,50 @@ body{
     background-color: white;
 }
 
-.container h1{
+.container h1 {
     text-align: center;
     color: #9c3dcb;
 }
 
-.container button{
+.container button, select {
     color: white;
     background-color: #9c3dcb;
     font-weight: bold;
-   padding: 3px;
-   width: 100px;
+    padding: 3px;
+    width: 100px;
 }
 
-.container button:hover{
+.container button:hover, select:hover {
     cursor: pointer;
 }
-.response{
+
+.response {
     height: 70%;
     background-color: #eaeaea;
+    font-size: 18px;
+     word-wrap: break-word;
+    overflow-x: auto; 
+    padding: 16px;
 }
+#endpoints{
+    width: 269px;
+}
+label{
+    font-weight: bold;
+}
+
+pre {
+   background-color: ghostwhite;
+   border: 1px solid silver;
+   padding: 10px 20px;
+   margin: 20px; 
+   }
+.json-key {
+   color: brown;
+   }
+.json-value {
+   color: navy;
+   }
+.json-string {
+   color: olive;
+   }
